@@ -18,13 +18,13 @@ Develop SQL based analytics to deliver detailed insights into:
 **- Product Performance**
 **-Sales trends**
 
-These insights stakeholder  with key business metrics, enabling key decision-making
+These insights help stakeholders with key business metrics, enabling key decision-making
 
 ### License
 THe project is licensed under (MIT lICENSE)
 
 ### About me
 
-Hi i am** Aadil**, eager to plunge into data field; ready to deliver the best possible results and help businesses to make productive decisions with quality data analysis 
+Hi i am** Aadil**, eager to plunge into data field; ready to deliver the best possible results and help businesses to make productive decisions with quality data analysis.
 
-h
+
