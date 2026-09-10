@@ -109,9 +109,9 @@ insert into silver.crm_sales_details (
  sls_ord_num,
  sls_prd_key,
  sls_cust_id,
- cast(sls_order_dt as date) as sls_ord_dt,
- cast( sls_ship_dt as date) as sls_ship_dt, ---format 112 = YYYYMMDD
- cast(sls_due_dt as date) as sls_due_dt,
+ try_convert(date, sls_order_dt) as sls_ord_dt,
+ try_convert(date, sls_ship_dt) as sls_ship_dt, 
+ try_convert(date, sls_due_dt) as sls_due_dt,
  case when sls_sales is null or sls_sales <=0 or sls_sales != sls_quantity * abs(sls_price)
  then sls_quantity * abs(sls_price)
  else sls_sales --recalculate values if original data is missing
