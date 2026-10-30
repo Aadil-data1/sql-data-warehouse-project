@@ -41,6 +41,7 @@ The Data Architecture for this Project follows Medallion Architecture Bronze, Si
 
 <img width="1156" height="853" alt="image" src="https://github.com/user-attachments/assets/091698b7-81d7-478d-9048-888659181e59" />
 
+Thank you @DataWithBaraa [https://github.com/DataWithBaraa]
 
 
 ### About me
